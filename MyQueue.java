@@ -23,9 +23,6 @@ public class MyQueue {
 	public INode deQueue() {
 		return myLinkList.pop();
 	}
-	public INode peak() {
-		return myLinkList.head;
-	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -37,13 +34,13 @@ public class MyQueue {
 		myQueue.enqueu(mySecondNode);
 		myQueue.enqueu(myThirdNode);
 		myQueue.printQueue();
-		
+
 		myQueue.deQueue();
 		myQueue.printQueue();
 		myQueue.deQueue();
 		myQueue.printQueue();
 		myQueue.deQueue();
-		
+
 	}
 
 }
